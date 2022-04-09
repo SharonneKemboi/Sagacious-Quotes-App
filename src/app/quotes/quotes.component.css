@@ -1,0 +1,18 @@
+.jumbotron-fluid {
+    height: 55vh;
+    width: 70%;
+    margin: auto;
+    border-radius: 6%;
+    margin-top:1% ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../assets/Short-Positive-Quote.png");
+}
+.navbar-brand{
+color: rgb(225, 241, 241);
+font-size: 1.7rem; 
+}
+
+h1{
+    color: rgb(245, 249, 245);
+}
