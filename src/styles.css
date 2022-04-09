@@ -1,4 +1,4 @@
-@import url('https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css');
+@import "~bootstrap/dist/css/bootstrap.css";
 @import url('https://fonts.googleapis.com/css2?family=Gabriela:wght@400;700&display=swap');
 
 body {
