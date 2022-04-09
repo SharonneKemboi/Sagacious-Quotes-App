@@ -1,49 +1,22 @@
-<div class="container">
-    <!--Add bootsrap navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-success mt-2 ">
-        <div class="container-fluid">
-          <img src="../assets/download-removebg-preview.png" alt="" srcset="" height="80">
-          <a class="navbar-brand fw-bold p-2" href="#"> Sagacious Quote App</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse ml-4" id="navbarSupportedContent">
-      
-            <button class="btn btn-dark " style="margin-left: 40%;" data-bs-toggle="modal" data-bs-target="#exampleModal">Add A Sagacious Quote</button>
-          </div>
-        </div>
-      </nav>
-</div>
-
-<hr>
-
-<div class="jumbotron-fluid"><!--Add an Image-->
-
-    <div class="container">
-        <a href="https://quotestats.com/topic/quotes-about-sagacity/"><button class="btn bg-success text-light">More About Sagacious Quotes</button></a>
-    </div>
-</div>
-
-<!--Qoutes section-->
-<section id="quotes">
-
-    <div class="text-center text-light my-2">
-        <h1>Sagacious Quotes</h1>
-    </div>
-
-</section>
-  
-  <!-- Modal for Add quote bootstrap-->
- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-        <div class="modal-header">
-            <h4 class="modal-title" id="exampleModalLabel">Add Your Quote</h4>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
+<div class="container-fluid text-center text-light">
+  <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4">
+        <div class="card text-white bg-dark h-100">
+            <div class="card-header">
+                Sagacious Quote
+            </div>
+            <div class="card-body">
+                <blockquote class="blockquote mb-0">
+               
+                <footer class="blockquote-footer mt-3"><cite title="Source Title">Author </cite></footer>
+                </blockquote>
+            </div>
+            <div class="card-footer">
+                <app-quote-details></app-quote-details>
+            </div>
         </div>
     </div>
 </div>
-  
-  
+      </div>
+  </div>
