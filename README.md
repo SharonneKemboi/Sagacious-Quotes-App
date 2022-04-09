@@ -24,11 +24,29 @@
 
 This is An Angular Quote Application that allows users to add some of their favourite quotes, View some other posted quotes , vote for their favourite quotes and delete their quotes. This App helps one to understand some of Angular basic structures.
 
+## Project Objectives
+
+1. This project contains a custom model class for the quote
+2. This project should have a custom directive to highlight the quote that has the highest upvotes. 
+3. This project contains a form component that has input sections for the quote, the author, and the   person who submitted the quote.
+4. Each quote begins with an initial upvote and downvote value of 0(not achieved)
+
+
 ## Setup/Installation Requirements
 
 ```
-* 
+ 
+* You need to install Node.js and then the development tools. Node.js comes with a package manager called npm for installing NodeJS applications and libraries.
 
+* Install node.js (requires node.js version >= 0.8.4)
+
+* Install Grunt-CLI and Karma as global npm modules:
+
+
+* Get the Code(Either clone this repository or fork it on GitHub and clone your fork:
+
+git clone https://github.com/SharonneKemboi/Sagacious-Quotes-App
+cd angular-app
 
 ```
 
