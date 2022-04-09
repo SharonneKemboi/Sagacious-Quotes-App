@@ -7,11 +7,16 @@
           <div class="row">
             <div class="col-md-3">
 
+             
+              
                 
-              <button type="button" class="btn btn-sm btn-success"><i class="fa fa-thumbs-up" (click)="incrementLikes()">{{quote.likes}}</i></button>  
             </div>
             <div class="col-md-3">
-              <button type="button" class="btn btn-sm btn-danger"><i class="fa fa-thumbs-down" (click)="incrementDislikes()">{{quote.dislikes}}</i></button>  
+              <button type="button" class="btn btn-sm btn-primary"><i class="fa fa-thumbs-up" style="font-size:48px;color:rgb(202, 224, 223)" (click)="incrementLikes()">{{quote.likes}}</i></button> 
+              <button type="button" class="btn btn-sm btn-danger"><i class="fa fa-thumbs-down" style="font-size:48px;color:red" (click)="incrementDislikes()">{{quote.dislikes}}</i></button>  
+           
+
+           
             </div>
           </div>
          
