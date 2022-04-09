@@ -10,14 +10,14 @@ import { Quote } from '../quote';
   styleUrls: ['./quoteform.component.css']
 })
 export class QuoteformComponent implements OnInit {
-  newQuote = new Quote("","","",);
+  newQuote = new Quote("","","",0,0,new Date());
   
   @Output() addQuote = new EventEmitter<Quote>();
  
   submitQuote(f:NgForm){
     if(f.valid){
       this.addQuote.emit(this.newQuote);
-      this.newQuote = new Quote("","","",);
+      this.newQuote = new Quote("","","",0,0, new Date());
     }else{
       alert("Please enter valid inputs")
     }

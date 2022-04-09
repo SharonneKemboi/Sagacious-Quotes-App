@@ -10,9 +10,12 @@ import { Quote } from '../quote';
 })
 export class QuotesComponent implements OnInit {
   quotes:Quote[]=[
-    new Quote("","Sharonne Vanessa","Be human !",),
-    new Quote("","Junaid sanah","Hardwork Pays",),
-    new Quote("","Nancy Wells","Live.Laugh.Love.",)
+    new Quote("joy","Sharonne Vanessa","Be human !",300,10,new Date(2022,4,4)),
+    new Quote("shana","Junaid sanah","Hardwork Pays",300,10,new Date(2022,3,5)),
+    new Quote("Kim","Nancy Wells","Live.Laugh.Love.",300,10,new Date(2022,2,4)),
+    new Quote("Rail","Nancy Wells","Believe and It will happen.",300,10,new Date(2022,1,8)),
+    new Quote("Manny","Jeniffer Cook","Nothing is for Free.",300,10,new Date(2022,4,7))
+
   ];
 
   get myQuotes(){
