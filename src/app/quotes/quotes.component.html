@@ -5,17 +5,22 @@
         <div
          *ngFor='let quote of myQuotes; let i = index' 
         class="col-md-4 mb-4">
-        <div class="card text-white bg-success h-100">
+        <div class="card text-light bg-success h-100">
             <div class="card-header">
                 <h5>Sagacious Quote</h5>
             </div>
             <div class="card-body">
 
-                <blockquote class="blockquote mb-0"><!--Quoted Elements-->
+                <blockquote class="blockquote text-light mb-0"><!--Quoted Elements-->
                     <p>{{quote.description}}</p>
                 
-                    <footer class="blockquote-footer mt-3 text-light"><cite title="Source Title">Author </cite></footer>
+                    <footer class="blockquote-footer text-light mt-3"><cite title="Source Title">{{quote.author}} </cite></footer>
                 </blockquote>
+            </div>
+            <div class="card-footer text-light">
+                <app-quote-details [quote]='quote' (isComplete) = 'deleteQuote($event,i)'></app-quote-details>
+            </div>
+
             
             </div>
             <div class="card-footer">
@@ -26,4 +31,4 @@
         </div>
       </div>
     </div>
-</div>
+
